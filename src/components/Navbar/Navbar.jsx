@@ -1,5 +1,5 @@
 import CartWidget from "./CartWidget";
-import "/Users/valentinvallejo/Desktop/actividad_1/my-react-app/src/components/Navbar/Navbar.css"
+import "./Navbar.css"
 import { Link } from "react-router-dom";
 
 
