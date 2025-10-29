@@ -3,7 +3,8 @@ import { getProductsByCategory } from "../../data/firebase";
 import { getProducts } from "../../data/firebase"
 import { useParams } from "react-router-dom";
 import Item from "./Item";
-import "./itemListContainer.css";
+import "./ItemListContainer.css";
+
 
 function ItemListContainer(props) {
   const { categParam } = useParams(); 
