@@ -1,0 +1,37 @@
+/* margen/padding opcional del contenedor */
+.productos {
+  padding: 20px;
+}
+
+/* grid de 4 columnas fijas */
+.productos > .fila-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;              /* espacio entre cards */
+  align-items: start;     /* opcional: alinear las cards arriba */
+}
+.productos {
+  padding: 20px;
+}
+
+/* grid de 4 columnas con margen a los lados */
+.fila-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 auto;          /* centra el grid */
+  max-width: 1400px;       /* ancho máximo para que no se pegue a la derecha */
+  justify-items: stretch;  /* fuerza a que las columnas se estiren igual */
+  align-items: stretch;    /* hace que todas las filas tengan la misma altura */
+}
+
+/* cada producto ocupa todo el espacio de su celda */
+.fila-4 > * {
+  background: #f5f0e8;
+  border: 1px solid #d4b8a5;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* iguala altura entre cards */
+}

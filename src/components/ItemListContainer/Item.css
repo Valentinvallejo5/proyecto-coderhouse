@@ -1,0 +1,41 @@
+.producto {
+  background-color: #f5f0e8; /* Marrón muy clarito / beige */
+  border: 1px solid #d4b8a5; /* Marrón suave para bordes */
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(139, 69, 19, 0.15); /* sombra marrón */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(139, 69, 19, 0.25);
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 12px 0;
+  border: 2px solid #d4b8a5;
+}
+
+.titulo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #5a3825; /* Marrón más fuerte */
+  margin-bottom: 8px;
+}
+
+.detalle {
+  font-size: 0.95rem;
+  color: #4a2e1c; /* Marrón intermedio */
+  margin: 4px 0;
+}
+
+.detalle strong {
+  color: #7b4a2e; /* Marrón cálido */
+}
